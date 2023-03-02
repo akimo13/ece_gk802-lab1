@@ -14,7 +14,7 @@ while True:
         url = "https://" + url
 
     valid_url_pattern = re.compile(
-        r'^(?:http|ftp)s?://'                                                       # Checking for http:// or https://
+        r'^(?:http)s?://'                                                           # Checking for http:// or https://
         r'(?:www\.)?'                                                               # Checking for "www."
         r'\w+\.[a-zA-Z]{2,}(?:\.\w+)*'                                              # Checking for domain names and top-level domain
     )
